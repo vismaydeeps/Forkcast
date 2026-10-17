@@ -4,6 +4,7 @@ venv/
 __pycache__/
 *.pyc
 .env
+backend/.env
 
 # Node
 node_modules/
@@ -11,3 +12,5 @@ dist/
 
 # Editor
 .vscode/
+
+Question.md

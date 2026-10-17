@@ -3,6 +3,7 @@ import { AuthProvider, useAuth } from './context/AuthContext'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
+import Pantry from './pages/Pantry'
 
 function PrivateRoute({ children }) {
   const { user, loading } = useAuth()
